@@ -37,7 +37,8 @@ class AuthenticationView: UIView {
 
         usernameTextField.placeholder = "Username"
         usernameTextField.borderStyle = .roundedRect
-
+        usernameTextField.autocapitalizationType = UITextAutocapitalizationType.none
+        
         passwordTextField.placeholder = "Password"
         passwordTextField.borderStyle = .roundedRect
 
